@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head> 
@@ -9,6 +8,6 @@
         <meta property="og:video:width" content="250">
     </head>
     <body>
-        <img src="https://cdn.discordapp.com/attachments/963891685471957103/967247400840335410/trollface_PNG30.png">
+        <img src="https://cdn.discordapp.com/attachments/921244661186695198/1002351362643869696/SPOILER_unknown.png">
     </body>
 </html>
