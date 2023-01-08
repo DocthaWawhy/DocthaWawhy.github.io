@@ -7,22 +7,22 @@ function playRPS(userChoice) {
   const nightbotChoice = options[randomNumber];
   
   // Obtiene la opción elegida por el usuario
-  const args = [userChoice];
+  const userChoice = args[0];
 }
   // Compara la opción del usuario con la de Nightbot y determina el resultado
   if (userChoice === nightbotChoice) {
-    "¡Empate! el Nighbot te copio y eligio tambien " + userChoice + " kottyHehN salio copiota el weon.";
+    return "¡Empate! el Nighbot te copio y eligio tambien " + userChoice + " kottyHehN salio copiota el weon.";
 
   } else if (userChoice === "piedra" && nightbotChoice === "tijera") {
-    "¡Asombroso kottyUwaaN ! Tu " + userChoice + " desintegro las " + nightbotChoice + " del Nightbot kottyHehN que idiota";
+    return "¡Asombroso kottyUwaaN ! Tu " + userChoice + " desintegro las " + nightbotChoice + " del Nightbot kottyHehN que idiota";
 
   } else if (userChoice === "papel" && nightbotChoice === "piedra") {
-    "¡TUBULAR kottyGaspN ! Tu " + userChoice + " empaco a la " + nightbotChoice + " del Nightbot y la envio por correo hasta un anciano el cual la planto . . . kottyWhatN ¿que acaba de pasar aqui? ";
+    return "¡TUBULAR kottyGaspN ! Tu " + userChoice + " empaco a la " + nightbotChoice + " del Nightbot y la envio por correo hasta un anciano el cual la planto . . . kottyWhatN ¿que acaba de pasar aqui? ";
 
   } else if (userChoice === "tijera" && nightbotChoice === "papel") {
-    "¿¿¡¡COMO!!?? Tu " + userChoice + " acaba de cortarle mal el pelo al Nighbot, el nightbot viendo lo malo que fue ahorrarse el pluquero, decidio usar su  " + nightbotChoice + " como sombrero, kottyPogN como la cancion!!!";
+    return "¿¿¡¡COMO!!?? Tu " + userChoice + " acaba de cortarle mal el pelo al Nighbot, el nightbot viendo lo malo que fue ahorrarse el pluquero, decidio usar su  " + nightbotChoice + " como sombrero, kottyPogN como la cancion!!!";
 
   } else {
-    "¡Perdiste malo culaio kottyEvil ! el Nightbot te saco su" + nightbotChoice + " la cual le saco la chucha a tu pobre " + userChoice + " kottySipN y sin despeinarse . . .";
+    return "¡Perdiste malo culaio kottyEvil ! el Nightbot te saco su" + nightbotChoice + " la cual le saco la chucha a tu pobre " + userChoice + " kottySipN y sin despeinarse . . .";
 
   }
