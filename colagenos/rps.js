@@ -1,4 +1,4 @@
-$(eval
+function playRPS(userChoice) {
   // Genera un número aleatorio entre 0 y 2
   const randomNumber = Math.floor(Math.random() * 3);
   
@@ -26,4 +26,3 @@ $(eval
     "¡Perdiste malo culaio kottyEvil! el Nightbot te saco su" + nightbotChoice + " la cual le saco la chucha a tu pobre " + userChoice + " kottySipN y sin despeinarse . . .";
 
   }
-)
