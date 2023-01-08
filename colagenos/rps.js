@@ -6,6 +6,10 @@ function playRPS(userChoice) {
   const options = ["piedra", "papel", "tijera"];
   const nightbotChoice = options[randomNumber];
   
+  // Obtiene la opción elegida por el usuario
+  const args = [userChoice];
+  const userChoice = args[0];
+}
   // Compara la opción del usuario con la de Nightbot y determina el resultado
   if (userChoice === nightbotChoice) {
     "¡Empate! el Nighbot te copio y eligio tambien " + userChoice + " kottyHehN salio copiota el weon.";
