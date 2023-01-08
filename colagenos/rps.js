@@ -8,7 +8,6 @@ function playRPS(userChoice) {
   
   // Obtiene la opción elegida por el usuario
   const args = [userChoice];
-  const userChoice = args[0];
 }
   // Compara la opción del usuario con la de Nightbot y determina el resultado
   if (userChoice === nightbotChoice) {
