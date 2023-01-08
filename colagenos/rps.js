@@ -23,6 +23,6 @@ function playRPS(userChoice) {
     "¿¿¡¡COMO!!?? Tu " + userChoice + " acaba de cortarle mal el pelo al Nighbot, el nightbot viendo lo malo que fue ahorrarse el pluquero, decidio usar su  " + nightbotChoice + " como sombrero, kottyPogN como la cancion!!!";
 
   } else {
-    "¡Perdiste malo culaio kottyEvil! el Nightbot te saco su" + nightbotChoice + " la cual le saco la chucha a tu pobre " + userChoice + " kottySipN y sin despeinarse . . .";
+    "¡Perdiste malo culaio kottyEvil ! el Nightbot te saco su" + nightbotChoice + " la cual le saco la chucha a tu pobre " + userChoice + " kottySipN y sin despeinarse . . .";
 
   }
