@@ -1,4 +1,8 @@
 function playRPS(userChoice) {
+  if (userChoice === undefined) {
+    return "Por favor proporciona una opción de piedra, papel o tijera.";
+  }
+
   // Genera un número aleatorio entre 0 y 2
   const randomNumber = Math.floor(Math.random() * 3);
   
